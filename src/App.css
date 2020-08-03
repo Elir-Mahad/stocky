@@ -142,7 +142,7 @@ body{
 
 .articleheading{
   width:18rem;
-  border:1px solid black;
+  /* border:1px solid black; */
 }
 
 .articleinfo .image{
@@ -153,5 +153,5 @@ body{
 .summary{
   font-size:1.3rem;
   width:18rem;
-  border:1px solid black;
+  /* border:1px solid black; */
 }
