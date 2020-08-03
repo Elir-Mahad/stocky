@@ -1,26 +1,41 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React from "react"                    //this line imports react, it is necessary because without it jsx won't work 
+
+// import "./App.css"                         // this imports the style.css file so that all the styles can work, without it the styles won't work
+
+import Genstocks from "./components/nav.js"
+
+import TechNews from "./components/technews.js"
+
+import CryptoNews from "./components/cryptonews.js"
+
+import GeneralNews from "./components/generalnews.js"
+
+
+function App(){          
+
+    return (            
+
+        <div className="mainbox">
+            
+            <div className="gstocks"> <Genstocks />  </div> 
+
+            <div className="techcrypto">
+
+                <div className="gnews"> <GeneralNews />  </div>
+
+                <div className="tnews"> <TechNews /> </div>
+
+                <div className="cnews"> <CryptoNews /> </div>
+
+            </div>
+
+        </div>
+
+
+    )
+
+
 }
 
-export default App;
+export default App 
