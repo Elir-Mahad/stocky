@@ -16,34 +16,87 @@ code {
 /* some custom styles for the page - it works because the styles sheet is imported in App.js */
 
 body{
-  padding-left:12rem;
+  margin-left:3rem;
   padding-top:2rem;
-  background-color:lightgrey;
+  background-color:#17172C;
 }
 
 
 /* below gainers, losers, and most active */
 
+.wholepage{
+  display: flex;
+}
+
+.rebigcontainer{
+  width:15rem;
+}
+
+.reheading{
+  color:white;
+  border:1px solid white;
+  border-radius:5px;
+  text-align: center;
+  font-size:1.5rem;
+  width:13rem;
+  padding:0.5rem;
+  display: block;
+  margin:auto;
+  margin-bottom:0.5rem;
+}
+
+.recontainer {
+  border-radius:1rem;
+  width: 15rem;
+  height: 40rem;
+  position: fixed;
+  overflow: auto;
+}
+
+.recompany{
+  display: flex;
+  flex-wrap: wrap;
+  width:100%;
+}
+
+.symbolntime{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:-0.5rem;
+}
+
+.recompanyinfo h2{
+  font-size:1.1rem;
+  font-weight: 600;;
+}
+
+.recompanyinfo{
+  background-color:white;
+  font-size: 1rem;
+  padding-left:1rem;
+  padding-right:1rem;
+  border-bottom:1px solid black;
+}
+
+/* mainbox */
 
 .mainbox{
-  /* background-color:red; */
   height:100%;
-  
+  margin-left:1rem;
 }
+
 
 .bigcontainer{
   width:15rem;
 }
 
-
 .heading{
   text-align: center;
-  background-color:black;
   color:white;
+  border:1px solid white;
+  border-radius:5px;
   font-size:1.5rem;
   width:10rem;
-  border-radius:5px;
-  border:transparent;
   padding:0.5rem;
   display: block;
   margin:auto;
@@ -72,6 +125,13 @@ body{
   margin-right:0.5rem;
 }
 
+.companyinfo h2{
+  font-size:1.3rem;
+  border-bottom:1px solid black;
+  height:3.5rem;
+  
+}
+
 .companyinfo{
   background-color:white;
   margin-bottom:1rem;
@@ -81,10 +141,17 @@ body{
   padding-right:1rem;
 }
 
-.companyinfo h2{
-  border-bottom:1px solid black;
-  height:3.5rem;
-  
+.logo {
+  /* border:1px solid white; */
+  padding:0.5rem;
+  border-radius:3rem;
+  background-color:black;
+  filter:brightness(5);
+  position:relative;
+  top:4rem;
+  left:4rem;
+  width:7rem;
+  animation: logo 10s infinite linear;
 }
 
 /* below tech news articles */
@@ -92,24 +159,23 @@ body{
 
 .techcrypto {
   display: flex;
-  margin-top:18rem;
+  margin-top:10rem;
   /* margin-left:7rem; */
   
 }
 
 .techcrypto div{
-  margin-right:2rem;;
+  margin-right:0.5rem;;
   width:20.1rem;
 }
 
 .heading_news{
   text-align: center;
-  background-color:black;
   color:white;
+  border:1px solid white;
+  border-radius:5px;
   font-size:1.5rem;
   width:12rem;
-  border-radius:5px;
-  border:transparent;
   padding:0.5rem;
   display: block;
   margin:auto;
@@ -124,6 +190,9 @@ body{
   position: fixed;
   overflow: auto;
   background-color:purple;
+  margin-left:0.5rem;
+  margin-right:0.5rem;
+  
 
 }
 
@@ -142,6 +211,7 @@ body{
 
 .articleheading{
   width:18rem;
+  font-size:1.3rem;
   /* border:1px solid black; */
 }
 
@@ -151,7 +221,18 @@ body{
 }
 
 .summary{
-  font-size:1.3rem;
-  width:18rem;
+  font-size:1rem;
+  width:18.1rem;
   /* border:1px solid black; */
 }
+
+/* animation */
+
+/* @keyframes logo {
+  from {
+      transform: rotate(0deg)
+  }
+  to {
+      transform: rotate(360deg)
+  }
+} */

@@ -3,6 +3,8 @@ import React from "react"                    //this line imports react, it is ne
 
 // import "./App.css"                         // this imports the style.css file so that all the styles can work, without it the styles won't work
 
+import Recommendations from "./components/recommendations.js"
+
 import Genstocks from "./components/nav.js"
 
 import TechNews from "./components/technews.js"
@@ -14,19 +16,29 @@ import GeneralNews from "./components/generalnews.js"
 
 function App(){          
 
-    return (            
+    return (
+        
+        <div className="wholepage">
+        
+            <div className="recommendations">
 
-        <div className="mainbox">
-            
-            <div className="gstocks"> <Genstocks />  </div> 
+                <div> <Recommendations /> </div>
 
-            <div className="techcrypto">
+            </div>
 
-                <div className="gnews"> <GeneralNews />  </div>
+            <div className="mainbox">
+                
+                <div className="gstocks"> <Genstocks />  </div> 
 
-                <div className="tnews"> <TechNews /> </div>
+                <div className="techcrypto">
 
-                <div className="cnews"> <CryptoNews /> </div>
+                    <div className="gnews"> <GeneralNews />  </div>
+
+                    <div className="tnews"> <TechNews /> </div>
+
+                    <div className="cnews"> <CryptoNews /> </div>
+
+                </div>
 
             </div>
 

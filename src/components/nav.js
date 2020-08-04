@@ -9,6 +9,8 @@ import Gainers from "./nav parts/gainers.js"
 
 import Losers from "./nav parts/losers.js"
 
+import stocky3 from "../assets/stocky3.png"
+
 // import "../style.css"  
 
 function Genstocks(){          
@@ -22,6 +24,16 @@ function Genstocks(){
             <div>  <Gainers /> </div>
 
             <div>  <Losers /> </div>
+
+            <div>
+
+                <img 
+                    className="logo"
+                    
+                    src={stocky3}
+                />
+            
+            </div>
 
         </div>
 
