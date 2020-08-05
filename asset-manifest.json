@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/stocky/static/css/main.885cb1be.chunk.css",
-    "main.js": "/stocky/static/js/main.be75ff0c.chunk.js",
-    "main.js.map": "/stocky/static/js/main.be75ff0c.chunk.js.map",
+    "main.css": "/stocky/static/css/main.86c1bf37.chunk.css",
+    "main.js": "/stocky/static/js/main.a43ddb57.chunk.js",
+    "main.js.map": "/stocky/static/js/main.a43ddb57.chunk.js.map",
     "runtime-main.js": "/stocky/static/js/runtime-main.835830c7.js",
     "runtime-main.js.map": "/stocky/static/js/runtime-main.835830c7.js.map",
     "static/js/2.bc956dec.chunk.js": "/stocky/static/js/2.bc956dec.chunk.js",
     "static/js/2.bc956dec.chunk.js.map": "/stocky/static/js/2.bc956dec.chunk.js.map",
     "index.html": "/stocky/index.html",
-    "precache-manifest.cdb0b639166752dcba255ecd5181bbf6.js": "/stocky/precache-manifest.cdb0b639166752dcba255ecd5181bbf6.js",
+    "precache-manifest.b75f14fee6f65d5a610109120c3afe86.js": "/stocky/precache-manifest.b75f14fee6f65d5a610109120c3afe86.js",
     "service-worker.js": "/stocky/service-worker.js",
-    "static/css/main.885cb1be.chunk.css.map": "/stocky/static/css/main.885cb1be.chunk.css.map",
+    "static/css/main.86c1bf37.chunk.css.map": "/stocky/static/css/main.86c1bf37.chunk.css.map",
     "static/js/2.bc956dec.chunk.js.LICENSE.txt": "/stocky/static/js/2.bc956dec.chunk.js.LICENSE.txt",
     "static/media/stockywhite.png": "/stocky/static/media/stockywhite.98b4c52f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.835830c7.js",
     "static/js/2.bc956dec.chunk.js",
-    "static/css/main.885cb1be.chunk.css",
-    "static/js/main.be75ff0c.chunk.js"
+    "static/css/main.86c1bf37.chunk.css",
+    "static/js/main.a43ddb57.chunk.js"
   ]
 }
