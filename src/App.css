@@ -1,0 +1,334 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+
+body {
+	margin: 0;
+	font-family: "EB Garamond", serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+/* Below are the general styles */
+
+body {
+	margin-left: 3rem;
+	margin-top: 1rem;
+	background-color: #2f2f2f;
+}
+
+h1,
+h2 {
+	font-size: 1.3rem;
+	font-weight: 100;
+}
+
+p {
+	font-size: 1.2rem;
+	margin-bottom: 0rem;
+	margin-top: 0.5rem;
+}
+
+.firstpage {
+	display: flex;
+}
+
+.rebigcontainer {
+	width: 15rem;
+}
+
+/* styles for the menu */
+
+.menu {
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 1rem;
+}
+
+.menu a {
+	background-color: white;
+	border-radius: 1rem;
+	color: black;
+	text-decoration: none;
+	font-size: 1.5rem;
+	padding: 0.5rem;
+}
+
+/* styles for all headings */
+
+.reheading,
+.heading,
+.heading_news {
+	background-color: #b5d4cc;
+	border-radius: 5px;
+	text-align: center;
+	width: 13rem;
+	padding: 0.3rem;
+	display: block;
+	margin: auto;
+	margin-bottom: 0.5rem;
+}
+
+/* different headings have different widths */
+
+.heading {
+	width: 10rem;
+}
+
+.heading_news {
+	width: 12rem;
+}
+/* below are the styles for recommendations */
+
+.recontainer {
+	border-radius: 1rem;
+	width: 15rem;
+	height: 40rem;
+	position: fixed;
+	overflow: auto;
+}
+
+.recompany {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.symbolntime {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: -0.5rem;
+}
+
+.recompanyinfo h2 {
+	font-weight: 600;
+}
+
+.recompanyinfo {
+	background-color: #f9f8f7;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid black;
+}
+
+/* mainbox */
+
+.mainbox {
+	height: 100%;
+	margin-left: 1rem;
+}
+
+.bigcontainer {
+	width: 14rem;
+	margin-left: 1rem;
+}
+
+.threestocks {
+	display: flex;
+}
+
+.container {
+	background-color: #f9f8f7;
+	border-radius: 1rem;
+	width: 14rem;
+	height: 14rem;
+	position: fixed;
+	overflow: auto;
+}
+
+.company {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
+
+.companyinfo h2 {
+	font-weight: 600;
+}
+
+.companyinfo {
+	border-bottom: 1px solid green;
+	padding-bottom: 1rem;
+	width: 100%;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.companyinfo .tag::after {
+	content: "➢";
+	color: green;
+	font-size: 0.8rem;
+	padding-left: 0.4rem;
+	padding-right: 0.5rem;
+}
+
+.logo {
+	padding: 0.5rem;
+	border-radius: 3rem;
+	position: relative;
+	top: 4rem;
+	left: 4rem;
+	width: 7rem;
+	animation: logo 10s infinite linear;
+}
+
+/* below tech news articles */
+
+.techcrypto {
+	display: flex;
+	margin-top: 7rem;
+}
+
+.techcrypto div {
+	margin-right: 0.5rem;
+	width: 20.1rem;
+}
+
+.technews {
+	display: flex;
+	height: 21rem;
+	border-radius: 1rem;
+	position: fixed;
+	overflow: auto;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
+
+.techarticle {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.articleinfo {
+	background-color: #f9f8f7;
+	border-bottom: 1px solid black;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-bottom: 1rem;
+	margin-bottom: 1rem;
+}
+
+.articleheading {
+	width: 18rem;
+	border-bottom: 1px solid green;
+	padding-bottom: 0.5rem;
+}
+
+.articleinfo .image {
+	height: 8rem;
+	object-fit: contain;
+}
+
+.articleinfo h2 {
+	font-weight: 600;
+}
+
+.articleinfo .summary {
+	width: 18.1rem;
+}
+
+/* second page */
+
+/* .firstpage{
+  display:none;
+} */
+
+.secondpage {
+	padding: 0rem;
+	background-color: white;
+	margin-left: -3rem; /* because body has margin-left:3rem */
+}
+
+/*sector styles */
+
+.sectorcontainer {
+	background-color: #f9f8f7;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	margin-left: 10rem;
+}
+
+.sectorheading {
+	background-color: #b5d4cc;
+	border: transparent;
+	font-size: 1.3rem;
+	border-radius: 5px;
+	text-align: center;
+	padding: 0.5rem;
+}
+
+/* sector article */
+
+.sector {
+	display: flex;
+	height: 40rem;
+	border-radius: 1rem;
+	position: fixed;
+	overflow: auto;
+	margin-top: 2rem;
+}
+
+.sectorarticle {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 21rem;
+}
+
+.secarticleinfo {
+	background-color: #f9f8f7;
+	border-bottom: 1px solid black;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-bottom: 1rem;
+	margin-bottom: 1rem;
+	width: 80%;
+	border-radius: 1rem;
+}
+
+.secarticleinfo h2 {
+	font-weight: 600;
+}
+
+.secarticleinfo .image {
+	height: 8rem;
+	object-fit: contain;
+}
+
+/* sector stocks */
+
+.sectorstocksbox {
+	border-radius: 1rem;
+	height: 40rem;
+	width: 18rem;
+	position: fixed;
+	overflow: auto;
+}
+
+.sectorstocksinfo {
+	background-color: #f9f8f7;
+	border-bottom: 1px solid black;
+	padding: 1rem;
+}
+
+.sectorstocksinfo h2 {
+	margin-top: -0.5rem;
+	margin-bottom: 0.5rem;
+	text-align: center;
+	font-weight: 600;
+}
+
+/* animation */
+
+/* @keyframes logo {
+  from {
+      transform: rotate(0deg)
+  }
+  to {
+      transform: rotate(360deg)
+  }
+} */
