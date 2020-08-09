@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/stocky/static/css/main.cfa7b617.chunk.css",
-    "main.js": "/stocky/static/js/main.1cd54184.chunk.js",
-    "main.js.map": "/stocky/static/js/main.1cd54184.chunk.js.map",
+    "main.js": "/stocky/static/js/main.9b077abe.chunk.js",
+    "main.js.map": "/stocky/static/js/main.9b077abe.chunk.js.map",
     "runtime-main.js": "/stocky/static/js/runtime-main.835830c7.js",
     "runtime-main.js.map": "/stocky/static/js/runtime-main.835830c7.js.map",
     "static/js/2.697bc69f.chunk.js": "/stocky/static/js/2.697bc69f.chunk.js",
     "static/js/2.697bc69f.chunk.js.map": "/stocky/static/js/2.697bc69f.chunk.js.map",
     "index.html": "/stocky/index.html",
-    "precache-manifest.3b7a68bcccf09b140bf6901e1669f115.js": "/stocky/precache-manifest.3b7a68bcccf09b140bf6901e1669f115.js",
+    "precache-manifest.e345ebf0914a3a34f458bd8654d717b6.js": "/stocky/precache-manifest.e345ebf0914a3a34f458bd8654d717b6.js",
     "service-worker.js": "/stocky/service-worker.js",
     "static/css/main.cfa7b617.chunk.css.map": "/stocky/static/css/main.cfa7b617.chunk.css.map",
     "static/js/2.697bc69f.chunk.js.LICENSE.txt": "/stocky/static/js/2.697bc69f.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.835830c7.js",
     "static/js/2.697bc69f.chunk.js",
     "static/css/main.cfa7b617.chunk.css",
-    "static/js/main.1cd54184.chunk.js"
+    "static/js/main.9b077abe.chunk.js"
   ]
 }
