@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Menu() {
 	return (
 		<nav className="menu">
-			<Link to="/landing">
+			<Link to="/stocky">
 				<a>First page</a>
 			</Link>
 

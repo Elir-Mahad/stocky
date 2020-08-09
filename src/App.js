@@ -23,7 +23,7 @@ function App() {
 		<Router>
 			<div className="allpages">
 				<Switch>
-					<Route path="/landing">
+					<Route path="/stocky">
 						<Menu />
 						<div className="firstpage">
 							<div className="recommendations">
