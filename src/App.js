@@ -73,13 +73,3 @@ function App() {
 }
 
 export default App;
-
-{
-	/* <div className="secondpage">
-
-<div className="sectorpage">
-<Semiconductors />
-</div>
-
-</div> */
-}
