@@ -10,7 +10,7 @@ function Menu() {
 				<img className="logo_small" src={logonoword} />
 			</Link>
 
-			<div className="group">
+			<div className="menugroup">
 				<Link to="/stocky/biotech">
 					<a>Bio Tech</a>
 				</Link>
@@ -20,7 +20,7 @@ function Menu() {
 				</Link>
 			</div>
 
-			<div className="group">
+			<div className="menugroup">
 				<Link to="/stocky/semiconductors">
 					<a>Semiconductors</a>
 				</Link>
@@ -30,7 +30,7 @@ function Menu() {
 				</Link>
 			</div>
 
-			<div className="group">
+			<div className="menugroup">
 				<Link to="/stocky/steel">
 					<a>Steel</a>
 				</Link>
@@ -39,6 +39,28 @@ function Menu() {
 					<a>Metal Fabrication</a>
 				</Link>
 			</div>
+
+			<ul class="phone">
+				<li>
+					<a>
+						Menu<span>▼</span>
+					</a>
+					<ul class="sub-menu">
+						<Link to="/stocky/metalfabrication">
+							<a>Metal Fabrication</a>
+						</Link>
+						<Link to="/stocky/metalfabrication">
+							<a>Metal Fabrication</a>
+						</Link>
+						<Link to="/stocky/metalfabrication">
+							<a>Metal Fabrication</a>
+						</Link>
+						<Link to="/stocky/metalfabrication">
+							<a>Metal Fabrication</a>
+						</Link>
+					</ul>
+				</li>
+			</ul>
 		</nav>
 	);
 }

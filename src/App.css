@@ -33,7 +33,7 @@ p {
 
 .firstpage {
 	display: flex;
-	width: 10rem;
+	margin-left: 4.5rem;
 }
 
 .rebigcontainer {
@@ -46,18 +46,105 @@ p {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
-	margin-bottom: 0.5rem;
-	background-color: black;
+	margin-bottom: 1rem;
 }
 
-.menu a {
-	color: white;
-	background-color: red;
+.menugroup a {
+	color: black;
 	text-decoration: none;
 	font-size: 1.2rem;
-	padding-left: 0.5rem;
-	/* width: 100%; */
+	justify-content: space-evenly;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	background-color: #eeedea;
+	border-radius: 5px;
+	padding: 0.3rem;
 }
+
+.logo_small {
+	background-color: #2f2f2f;
+	border-radius: 3rem;
+	width: 3rem;
+	animation: logo_small 10s infinite linear;
+}
+
+/* Drop Down */
+.phone {
+	font-size: 1.5rem;
+	text-decoration: none;
+	margin-right: 3rem;
+}
+
+.phone li {
+	position: relative;
+}
+
+.phone span {
+	font-size: 10px;
+	padding: 0.5rem;
+	color: yellow;
+}
+
+.phone li a {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.phone li:hover ul.sub-menu,
+.phone li:focus-within ul.sub-menu {
+	display: block;
+}
+
+.phone ul.sub-menu {
+	background: white;
+	display: none;
+	position: absolute;
+	text-align: center;
+	width: 125%;
+	left: -1.1rem;
+	right: 0rem;
+}
+
+.phone ul.sub-menu li a {
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+}
+
+.phone ul.sub-menu li:hover,
+.phone ul.sub-menu li:focus-within {
+	border-bottom: 2px solid #f0d000;
+}
+
+/* @media (max-width: 1024px) {
+	.topnav {
+		-ms-flex-pack: distribute;
+		justify-content: space-around;
+	}
+}
+
+@media (max-width: 834px) {
+	.topnav .desk {
+		display: none;
+	}
+	.topnav ul a:hover {
+		background-color: transparent;
+	}
+	.topnav .phone {
+		display: block;
+		border: 1px solid black;
+		padding: 1rem;
+	}
+	.topnav img {
+		margin-left: 1rem;
+	}
+	.topnav {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-pack: distribute;
+		justify-content: space-around;
+	}
+} */
 
 /* styles for all headings */
 
@@ -176,13 +263,6 @@ p {
 	top: 4rem;
 	left: 4rem;
 	width: 7rem;
-	animation: logo 10s infinite linear;
-}
-
-.logo_small {
-	border-radius: 3rem;
-	width: 3rem;
-	animation: logo 10s infinite linear;
 }
 
 /* below tech news articles */
@@ -241,10 +321,6 @@ p {
 }
 
 /* second page */
-
-/* .firstpage{
-  display:none;
-} */
 
 .secondpage {
 	padding: 0rem;
@@ -332,11 +408,11 @@ p {
 
 /* animation */
 
-/* @keyframes logo {
-  from {
-      transform: rotate(0deg)
-  }
-  to {
-      transform: rotate(360deg)
-  }
-} */
+@keyframes logo_small {
+	from {
+		transform: rotate(360deg);
+	}
+	to {
+		transform: rotate(0deg);
+	}
+}
