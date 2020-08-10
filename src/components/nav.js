@@ -1,46 +1,38 @@
+import React from "react";
 
+import Active from "./nav parts/active.js";
 
+import Gainers from "./nav parts/gainers.js";
 
-import React from "react" 
+import Losers from "./nav parts/losers.js";
 
-import Active from "./nav parts/active.js"
+import logoword from "../assets/logoword.png";
 
-import Gainers from "./nav parts/gainers.js"
+// import "../style.css"
 
-import Losers from "./nav parts/losers.js"
+function Genstocks() {
+	return (
+		<div className="threestocks">
+			<div>
+				{" "}
+				<Active />{" "}
+			</div>
 
-import stockywhite from "../assets/stockywhite.png"
+			<div>
+				{" "}
+				<Gainers />{" "}
+			</div>
 
-// import "../style.css"  
+			<div>
+				{" "}
+				<Losers />{" "}
+			</div>
 
-function Genstocks(){          
-
-    return (            
-
-        <div className="threestocks">
-
-            <div>  <Active /> </div>
-
-            <div>  <Gainers /> </div>
-
-            <div>  <Losers /> </div>
-
-            <div>
-
-                <img 
-                    className="logo"
-                    
-                    src={stockywhite}
-                />
-            
-            </div>
-
-        </div>
-
-
-    )
-
-
+			<div>
+				<img className="logo" src={logoword} />
+			</div>
+		</div>
+	);
 }
 
-export default Genstocks   
+export default Genstocks;

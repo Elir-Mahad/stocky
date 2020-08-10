@@ -15,7 +15,6 @@ code {
 /* Below are the general styles */
 
 body {
-	margin-left: 3rem;
 	margin-top: 1rem;
 	background-color: #2f2f2f;
 }
@@ -34,6 +33,7 @@ p {
 
 .firstpage {
 	display: flex;
+	width: 10rem;
 }
 
 .rebigcontainer {
@@ -45,16 +45,18 @@ p {
 .menu {
 	display: flex;
 	justify-content: space-evenly;
-	margin-bottom: 1rem;
+	align-items: center;
+	margin-bottom: 0.5rem;
+	background-color: black;
 }
 
 .menu a {
-	background-color: white;
-	border-radius: 1rem;
-	color: black;
+	color: white;
+	background-color: red;
 	text-decoration: none;
-	font-size: 1.5rem;
-	padding: 0.5rem;
+	font-size: 1.2rem;
+	padding-left: 0.5rem;
+	/* width: 100%; */
 }
 
 /* styles for all headings */
@@ -174,6 +176,12 @@ p {
 	top: 4rem;
 	left: 4rem;
 	width: 7rem;
+	animation: logo 10s infinite linear;
+}
+
+.logo_small {
+	border-radius: 3rem;
+	width: 3rem;
 	animation: logo 10s infinite linear;
 }
 
